@@ -47,17 +47,14 @@ body {
   display: flex;
   cursor: pointer;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   gap: 20px;
 }
 
-button {
-  background: none;
-  border: none;
-  color: white;
-  font-weight: bold;
+a {
+  text-decoration: none;
 }
+
 .Btn {
   padding-top: 9px;
   width: 300px;
@@ -67,8 +64,11 @@ button {
   border-radius: 5px;
   color: white;
   transition: 0.3s;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .Btn:hover {
   background-color: hsl(75, 94%, 57%);
+  color: black;
 }
