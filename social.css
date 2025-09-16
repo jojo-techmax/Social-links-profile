@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  font-family: inter;
+}
+
+.main {
+  width: 370px;
+  height: 530px;
+  border-radius: 12px;
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+  border-radius: 10px;
+  font-family: inter;
+}
+
+#jessica {
+  padding: 15px;
+  border-radius: 400px;
+  height: 70px;
+  width: auto;
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 5px;
+  font-family: inter;
+}
+
+.state {
+  color: hsl(75, 94%, 57%);
+  margin-top: 5px;
+  font-family: inter;
+}
+
+.job {
+  color: white;
+  margin-bottom: 20px;
+  font-family: inter;
+}
+
+.column {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.Btn {
+  padding-top: 9px;
+  width: 300px;
+  padding-bottom: 9px;
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: 0.3s;
+}
+
+.Btn:hover {
+  background-color: hsl(75, 94%, 57%);
+}
